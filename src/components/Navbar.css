@@ -4,14 +4,20 @@ nav {
   align-items: center;
   background-color: #cb8c54;
   gap: 45px;
+  padding: 15px 0;
 }
 
 nav a {
   text-decoration: none;
   color: white;
   transition: all 0.3s;
+  font-size: 1.2rem;
 }
 
 nav a:hover {
   color: cadetblue;
+}
+
+nav a svg {
+  margin-right: 5px;
 }
